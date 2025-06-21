@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+@theme {
+  --color-yellow: #f9b800;
+  --color-dark: #262626;
+  --color-main-bg: #fffaeb;
+  --color-white: #ffffff;
+}
+
+@layer {
+  h1 {
+    @apply text-6xl font-bold leading-normal;
+  }
+}
